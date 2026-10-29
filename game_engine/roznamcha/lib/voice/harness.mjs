@@ -34,10 +34,10 @@ import { fileURLToPath } from "node:url";
 import { WebSocketServer } from "ws";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = path.resolve(__dirname, "..", "..", ".."); // .../sarvam-hackathon
+const REPO_ROOT = path.resolve(__dirname, "..", "..", ".."); // .../sadak-bolna-buildathon
 const HARNESS_DIR = path.join(__dirname, "__harness__");
 const SCRATCHPAD =
-  "C:/Users/apoor/AppData/Local/Temp/claude/c--Users-apoor-OneDrive-Desktop-sarvam-hackathon/a7b1851f-4975-4f79-a3e9-8ac697c598a9/scratchpad";
+  "C:/Users/apoor/AppData/Local/Temp/claude/c--Users-apoor-OneDrive-Desktop-sadak-bolna-buildathon/a7b1851f-4975-4f79-a3e9-8ac697c598a9/scratchpad";
 
 const RELAY_PORT = 8788;
 const HTTP_PORT = 8789;

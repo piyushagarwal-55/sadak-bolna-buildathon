@@ -3,7 +3,7 @@
  *
  * Persists to a JSON file at roznamcha/.data/roznamcha.json so it survives a
  * process restart (dev server reload, `next dev` restart, etc). This is a
- * hackathon-grade store: single JSON file, synchronous fs, in-memory cache
+ * Bolna Buildathon 2026-grade store: single JSON file, synchronous fs, in-memory cache
  * with write-through on every mutation. No concurrent-writer story is needed
  * for a single-worker demo.
  *

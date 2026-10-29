@@ -34,7 +34,7 @@ export const maxDuration = 60;
  *   fatal   fall back to an authored scenario, and say so plainly rather than
  *           showing a spinner that never resolves.
  *
- * The fallback is the point. A hackathon demo cannot afford a grey card at
+ * The fallback is the point. A Bolna Buildathon 2026 demo cannot afford a grey card at
  * 11:04 on stage, and an authored Hyderabad errand played flawlessly beats a
  * generated one that hangs. The response says which happened, so the UI can be
  * honest without being alarming.

@@ -23,7 +23,7 @@ import { SCENARIO_TABLE, budget, dynamo } from "../aws/dynamo";
  * browser still holds the scenario in `sessionStorage` while the server has
  * forgotten it. Every turn then 404s with "Unknown character", which looks like
  * a broken microphone rather than a missing cache entry. A file survives the
- * restart, and a hackathon laptop restarts its dev server a great deal.
+ * restart, and a Bolna Buildathon 2026 laptop restarts its dev server a great deal.
  *
  * It is also the right trade for a DEMO specifically. `sim_spec_cache` exists
  * in the migrations and is where this belongs in production, but it puts a

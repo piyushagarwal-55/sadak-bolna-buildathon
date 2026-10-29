@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <sub>Built for <b>Bharat Builds</b> · Deployed on AWS Amplify + DynamoDB</sub>
+  <sub>Built for <b>Bolna Buildathon 2026</b> · Deployed on AWS Amplify + DynamoDB</sub>
 </p>
 
 ---
@@ -605,8 +605,7 @@ for the audio cache.
 
 Named providers and model ids for reasoning, speech and auth are in
 [`.env.example`](game_engine/.env.example) and under
-[`game_engine/lib/sim/`](game_engine/lib/sim). The organisers confirmed any AI
-tooling is permitted and that the requirement is deployment on AWS.
+[`game_engine/lib/sim/`](game_engine/lib/sim). Built for Bolna Buildathon 2026.
 
 **Scale**
 377 tracked files · 18 API routes · 99 files in the simulation layer ·
@@ -693,7 +692,7 @@ speaking and no group-specific scoring.
 ## Run it locally
 
 ```bash
-git clone https://github.com/piyushagarwal-55/sadak
+git clone https://github.com/piyushagarwal-55/sadak-bolna-buildathon
 cd sadak/game_engine
 cp .env.example .env
 npm ci

@@ -63,7 +63,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 function loadDotEnv() {
   if (process.env.SARVAM_API_KEY) return;
   const candidates = [
-    path.resolve(__dirname, "..", "..", ".env"), // sarvam-hackathon/.env
+    path.resolve(__dirname, "..", "..", ".env"), // sadak-bolna-buildathon/.env
     path.resolve(__dirname, "..", ".env"), // roznamcha/.env
     path.resolve(process.cwd(), ".env"),
   ];
@@ -91,7 +91,7 @@ loadDotEnv();
 const API_KEY = process.env.SARVAM_API_KEY;
 if (!API_KEY) {
   console.error(
-    "[relay] SARVAM_API_KEY is not set. Put it in sarvam-hackathon/.env"
+    "[relay] SARVAM_API_KEY is not set. Put it in sadak-bolna-buildathon/.env"
   );
   process.exit(1);
 }

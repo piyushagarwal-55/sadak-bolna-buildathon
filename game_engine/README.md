@@ -12,7 +12,7 @@ A third-person browser game where every NPC is a live Sarvam-powered character
 who speaks, listens and replies only in an Indian language. You walk up, you
 hold space, and you *talk*. The conversation is the gameplay.
 
-Built for the Sarvam Epoch Buildathon.
+Built for Bolna Buildathon 2026.
 
 ---
 
@@ -27,7 +27,7 @@ We evaluated the obvious starting points before writing any code:
 | [a16z-infra/ai-town](https://github.com/a16z-infra/ai-town) | Excellent agent sim, but 2D top-down PixiJS and a hard Convex dependency. Getting to third-person means fighting it the whole way. |
 | [playcanvas/engine](https://github.com/playcanvas/engine) | Good MIT engine, but its real value is the hosted editor and asset pipeline, neither of which we'd have time to fill. |
 
-The differentiator at a *Sarvam* buildathon is the Indic voice layer, not the
+The differentiator at Bolna Buildathon 2026 is the Indic voice layer, not the
 renderer. So the world is a lean three.js scene we fully control, and **the
 entire city is generated in code**. No models, no textures, nothing to block
 on. `npm install && npm run dev` and the city is there.

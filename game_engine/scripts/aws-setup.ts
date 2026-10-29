@@ -14,7 +14,7 @@
  *
  * ON-DEMAND BILLING, DELIBERATELY
  *
- * `PAY_PER_REQUEST` rather than provisioned capacity. A hackathon project has
+ * `PAY_PER_REQUEST` rather than provisioned capacity. A Bolna Buildathon 2026 project has
  * no steady load to provision for — it has nothing at all for six days and then
  * forty people at once — and provisioned throughput would be both more
  * expensive at rest and throttled at exactly the wrong moment.
